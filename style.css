@@ -1,0 +1,22 @@
+.twox {
+    color: gray;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    margin-left: 8px;
+}
+
+.onex {
+    color: gray;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+
+.modal-velocidade {
+    width: 10px;
+    height: 30px;
+    background-color: white;
+}

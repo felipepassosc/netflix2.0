@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "netflix 2.0",
+    "version": "0.1",
+    "description": "netflix",
+    "author": "Felipe Passos",
+    "browser_action": {
+        "default_title": "netflix"
+    },
+    "background": {
+        "scripts": [
+            "index.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.whatsapp.com/"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "index.js"
+            ],
+            "html": [
+                "index.html"
+            ]
+        }
+    ]
+}
